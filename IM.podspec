@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "IM"
-  s.version          = "0.0.1"
+  s.version          = "1.0.0"
   s.summary          = "An iOS IM UI framework written in Swift."
 
 # This description is used to generate tags and improve search results.
@@ -29,8 +29,13 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'IM/**/*{.h}','IM/**/*{.swift}'
-  s.public_header_files = 'IM/**/*{.xib}', 'IM/**/*{.bundle}'
+  s.source_files = 'IM/**/*.{h,m,swift}'
+  s.public_header_files = 'IM/**/*.{h}'
+  s.resource_bundles = {
+    'IMMessagesAssets' => ['IM/**/*.{bundle}']
+    'IM/**/*.{xib}'
+  }
   s.frameworks = 'Foundation', 'UIKit'
-  s.dependency "CocoaHelper"
+  s.dependency 'CocoaHelper', 'SystemSounds'
+  s.requires_arc = true
 end

@@ -1,0 +1,6 @@
+framework module CocoaHelper {
+  umbrella header "CocoaHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

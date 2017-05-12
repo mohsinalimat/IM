@@ -1,0 +1,22 @@
+PODS:
+  - CocoaHelper (1.1.3)
+  - IM (1.0.0):
+    - CocoaHelper
+    - SystemSounds
+  - SystemSounds (1.0.0)
+
+DEPENDENCIES:
+  - IM (from `../`)
+
+EXTERNAL SOURCES:
+  IM:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaHelper: c2faf68f69cf14961cd478042213a953b626a630
+  IM: 80b72e8ea6b78faa2f461734744ea457c3036e79
+  SystemSounds: 9f2c7b4668171514b0b3abe40d004e4c443ebe0e
+
+PODFILE CHECKSUM: e298dfd0f324126ee2f01f51e2dbe2fa78e48abe
+
+COCOAPODS: 1.2.1
