@@ -1,0 +1,12 @@
+PODS:
+  - SystemSounds (1.0.0)
+
+DEPENDENCIES:
+  - SystemSounds
+
+SPEC CHECKSUMS:
+  SystemSounds: 9f2c7b4668171514b0b3abe40d004e4c443ebe0e
+
+PODFILE CHECKSUM: e7ad17f2b5c806223c310c4f061b5abec9ac5067
+
+COCOAPODS: 1.2.1

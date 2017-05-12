@@ -31,11 +31,12 @@ Pod::Spec.new do |s|
 
   s.source_files = 'IM/**/*.{h,m,swift}'
   s.public_header_files = 'IM/**/*.{h}'
-  s.resource_bundles = {
-    'IMMessagesAssets' => ['IM/**/*.{bundle}']
-    'IM/**/*.{xib}'
-  }
-  s.frameworks = 'Foundation', 'UIKit'
-  s.dependency 'CocoaHelper', 'SystemSounds'
+  s.resources = 'IM/**/*.{xib}', 'IM/**/*.{bundle}'
+  # s.resource_bundles = {
+  #   'IMMessagesAssets' => ['IM/**/*.{bundle}']
+  # }
+  s.frameworks = 'Foundation', 'UIKit', 'QuartzCore', 'CoreGraphics', 'CoreLocation', 'MapKit', 'MobileCoreServices', 'AVFoundation'
+  s.dependency 'CocoaHelper'
+  s.dependency 'SystemSounds'
   s.requires_arc = true
 end

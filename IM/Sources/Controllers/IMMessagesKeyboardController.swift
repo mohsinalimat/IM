@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 public let IMMessagesKeyboardControllerNotificationKeyboardDidChangeFrame = "IMMessagesKeyboardControllerNotificationKeyboardDidChangeFrame"
 public let IMMessagesKeyboardControllerUserInfoKeyKeyboardDidChangeFrame = "IMMessagesKeyboardControllerUserInfoKeyKeyboardDidChangeFrame"

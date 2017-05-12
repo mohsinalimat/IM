@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1733D08ABD84A5796DFCAE47848A65CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146B8E133707B9109954F841E9A4445F /* Foundation.framework */; };
+		3E00459530B4B60DCE2AC32124755313 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8CF8EFD6756001B541C5A63D74D26F0 /* AudioToolbox.framework */; };
+		3E754C40822114E7343C78A7B093DEA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB6B7FC76E6ADD9304DE482664DF189 /* UIKit.framework */; };
+		3F975F27CBE0487E5669870122106E6A /* SystemSounds-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C772304E2E11BC6082C06EE675CE5B7 /* SystemSounds-dummy.m */; };
+		5DBBC16BF41C1BAFBFC99C51E5578C09 /* Pods-IM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B42471C240042F5211DB47B1B480AC04 /* Pods-IM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		816B38CF1B9C2A0B445B947FE0493408 /* SystemSounds.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C22C4233E78CF120E1A745A93991BE /* SystemSounds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FD47B966EBD4172CBBD2AFABB242B1A /* SystemSoundsDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C3D37E0334172DEF24953C04285B13 /* SystemSoundsDefine.swift */; };
+		965F45A52A2B20A0F78A24A9CEB97AF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146B8E133707B9109954F841E9A4445F /* Foundation.framework */; };
+		DF6BCC93034A396F1EF7916DED3E02C8 /* Pods-IM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD758B4958BE4D42A1482A1076D92D37 /* Pods-IM-dummy.m */; };
+		E062B188339827C771F35DCEFAA3CAE7 /* SystemSounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58FE5A092A8401843F85A8BA20C478C /* SystemSounds.swift */; };
+		F3A60CF0251BC5270407DE172FB16F44 /* SystemSounds-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E164FBE0A859D7B8A030355F726B3B8 /* SystemSounds-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEE05DE7D8017B0882AD64481DB3C4AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75B576367883A8C146B5DB07BFC7C826;
+			remoteInfo = SystemSounds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1443610D18316BF5DF0E7DE4D088E318 /* Pods-IM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IM.release.xcconfig"; sourceTree = "<group>"; };
+		146B8E133707B9109954F841E9A4445F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1795F5E226E0E41D01DBFF395FEEA005 /* SystemSounds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SystemSounds.framework; path = SystemSounds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29EC600FA2E365258F152EB165866016 /* SystemSounds.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SystemSounds.modulemap; sourceTree = "<group>"; };
+		2ABBBBBF49C52788D2A379B023B140A8 /* Pods-IM-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IM-acknowledgements.markdown"; sourceTree = "<group>"; };
+		36517FAD11E920DD3E7C2CDF77A30BD7 /* Pods-IM-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IM-resources.sh"; sourceTree = "<group>"; };
+		37FDBAB8DECA25F2D42767E358A4DC9C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38BD1E5EDDBCEE33B036E38F7DC2800E /* Pods-IM-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IM-acknowledgements.plist"; sourceTree = "<group>"; };
+		3C772304E2E11BC6082C06EE675CE5B7 /* SystemSounds-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SystemSounds-dummy.m"; sourceTree = "<group>"; };
+		3F9C6B03C62F45F1E78564BD4BC6148E /* SystemSounds-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SystemSounds-prefix.pch"; sourceTree = "<group>"; };
+		4A2D1B9DC45269B64E337213FFF80F17 /* Pods-IM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IM.debug.xcconfig"; sourceTree = "<group>"; };
+		54C22C4233E78CF120E1A745A93991BE /* SystemSounds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SystemSounds.h; path = SystemSounds/SystemSounds/SystemSounds.h; sourceTree = "<group>"; };
+		5E9F01C3419007BD325E79FA863EA126 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E164FBE0A859D7B8A030355F726B3B8 /* SystemSounds-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SystemSounds-umbrella.h"; sourceTree = "<group>"; };
+		909ECC90C95F702967832D6B0F640271 /* Pods-IM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-IM.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96C3D37E0334172DEF24953C04285B13 /* SystemSoundsDefine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SystemSoundsDefine.swift; path = SystemSounds/SystemSounds/SystemSoundsDefine.swift; sourceTree = "<group>"; };
+		A8CF8EFD6756001B541C5A63D74D26F0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		B42471C240042F5211DB47B1B480AC04 /* Pods-IM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IM-umbrella.h"; sourceTree = "<group>"; };
+		B58FE5A092A8401843F85A8BA20C478C /* SystemSounds.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SystemSounds.swift; path = SystemSounds/SystemSounds/SystemSounds.swift; sourceTree = "<group>"; };
+		BFB6B7FC76E6ADD9304DE482664DF189 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CD758B4958BE4D42A1482A1076D92D37 /* Pods-IM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IM-dummy.m"; sourceTree = "<group>"; };
+		DD22D1D107A577799CA38143FFC6F0B7 /* SystemSounds.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SystemSounds.xcconfig; sourceTree = "<group>"; };
+		FA2DCDB92C03172EE4463834EE518502 /* Pods_IM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IM.framework; path = "Pods-IM.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95E232DF09D7AFFA624ACB69BDA689BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965F45A52A2B20A0F78A24A9CEB97AF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E781892DB81AD80CEB8A352A840A6166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E00459530B4B60DCE2AC32124755313 /* AudioToolbox.framework in Frameworks */,
+				1733D08ABD84A5796DFCAE47848A65CC /* Foundation.framework in Frameworks */,
+				3E754C40822114E7343C78A7B093DEA1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E69158E66B4F1954B6DADD3CE1CFC01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA2DCDB92C03172EE4463834EE518502 /* Pods_IM.framework */,
+				1795F5E226E0E41D01DBFF395FEEA005 /* SystemSounds.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				377A6629DE5F2A770F8DD358E9C9A487 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		363A5F799FA2C682F1ED6A8948B042CF /* Pods-IM */ = {
+			isa = PBXGroup;
+			children = (
+				37FDBAB8DECA25F2D42767E358A4DC9C /* Info.plist */,
+				909ECC90C95F702967832D6B0F640271 /* Pods-IM.modulemap */,
+				2ABBBBBF49C52788D2A379B023B140A8 /* Pods-IM-acknowledgements.markdown */,
+				38BD1E5EDDBCEE33B036E38F7DC2800E /* Pods-IM-acknowledgements.plist */,
+				CD758B4958BE4D42A1482A1076D92D37 /* Pods-IM-dummy.m */,
+				36517FAD11E920DD3E7C2CDF77A30BD7 /* Pods-IM-resources.sh */,
+				B42471C240042F5211DB47B1B480AC04 /* Pods-IM-umbrella.h */,
+				4A2D1B9DC45269B64E337213FFF80F17 /* Pods-IM.debug.xcconfig */,
+				1443610D18316BF5DF0E7DE4D088E318 /* Pods-IM.release.xcconfig */,
+			);
+			name = "Pods-IM";
+			path = "Target Support Files/Pods-IM";
+			sourceTree = "<group>";
+		};
+		377A6629DE5F2A770F8DD358E9C9A487 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A8CF8EFD6756001B541C5A63D74D26F0 /* AudioToolbox.framework */,
+				146B8E133707B9109954F841E9A4445F /* Foundation.framework */,
+				BFB6B7FC76E6ADD9304DE482664DF189 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3F97182A631CF82F0CB29E80CC9A2D2E /* SystemSounds */ = {
+			isa = PBXGroup;
+			children = (
+				54C22C4233E78CF120E1A745A93991BE /* SystemSounds.h */,
+				B58FE5A092A8401843F85A8BA20C478C /* SystemSounds.swift */,
+				96C3D37E0334172DEF24953C04285B13 /* SystemSoundsDefine.swift */,
+				D2EEBEC029E1D5860AF1995B244F0AD1 /* Support Files */,
+			);
+			name = SystemSounds;
+			path = SystemSounds;
+			sourceTree = "<group>";
+		};
+		6FEEC56A62713EEF9C140DEA75EF306A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				363A5F799FA2C682F1ED6A8948B042CF /* Pods-IM */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				B2B731750B0E183EA054DA6FA3FB33D1 /* Pods */,
+				0E69158E66B4F1954B6DADD3CE1CFC01 /* Products */,
+				6FEEC56A62713EEF9C140DEA75EF306A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B2B731750B0E183EA054DA6FA3FB33D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F97182A631CF82F0CB29E80CC9A2D2E /* SystemSounds */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D2EEBEC029E1D5860AF1995B244F0AD1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E9F01C3419007BD325E79FA863EA126 /* Info.plist */,
+				29EC600FA2E365258F152EB165866016 /* SystemSounds.modulemap */,
+				DD22D1D107A577799CA38143FFC6F0B7 /* SystemSounds.xcconfig */,
+				3C772304E2E11BC6082C06EE675CE5B7 /* SystemSounds-dummy.m */,
+				3F9C6B03C62F45F1E78564BD4BC6148E /* SystemSounds-prefix.pch */,
+				6E164FBE0A859D7B8A030355F726B3B8 /* SystemSounds-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SystemSounds";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		069788B5EB63F2E54D4D3A8692D65355 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBBC16BF41C1BAFBFC99C51E5578C09 /* Pods-IM-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7817DA239E8F9F16F30D0034865137AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A60CF0251BC5270407DE172FB16F44 /* SystemSounds-umbrella.h in Headers */,
+				816B38CF1B9C2A0B445B947FE0493408 /* SystemSounds.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		38B889A0B50E4EE19FA145E227AF86D4 /* Pods-IM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DD67CADB7242E5EA5A2132F323DD052 /* Build configuration list for PBXNativeTarget "Pods-IM" */;
+			buildPhases = (
+				6B9BE9B35C2EBB9F960163BF0A91002B /* Sources */,
+				95E232DF09D7AFFA624ACB69BDA689BF /* Frameworks */,
+				069788B5EB63F2E54D4D3A8692D65355 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A47B931A7C547E5BB9BDEE4C7220C5AA /* PBXTargetDependency */,
+			);
+			name = "Pods-IM";
+			productName = "Pods-IM";
+			productReference = FA2DCDB92C03172EE4463834EE518502 /* Pods_IM.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		75B576367883A8C146B5DB07BFC7C826 /* SystemSounds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1246B0C8B8454C570E6652B110C5EBA9 /* Build configuration list for PBXNativeTarget "SystemSounds" */;
+			buildPhases = (
+				AE51372053408D4320862B73D938FC92 /* Sources */,
+				E781892DB81AD80CEB8A352A840A6166 /* Frameworks */,
+				7817DA239E8F9F16F30D0034865137AB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SystemSounds;
+			productName = SystemSounds;
+			productReference = 1795F5E226E0E41D01DBFF395FEEA005 /* SystemSounds.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0E69158E66B4F1954B6DADD3CE1CFC01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38B889A0B50E4EE19FA145E227AF86D4 /* Pods-IM */,
+				75B576367883A8C146B5DB07BFC7C826 /* SystemSounds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B9BE9B35C2EBB9F960163BF0A91002B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6BCC93034A396F1EF7916DED3E02C8 /* Pods-IM-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE51372053408D4320862B73D938FC92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F975F27CBE0487E5669870122106E6A /* SystemSounds-dummy.m in Sources */,
+				E062B188339827C771F35DCEFAA3CAE7 /* SystemSounds.swift in Sources */,
+				8FD47B966EBD4172CBBD2AFABB242B1A /* SystemSoundsDefine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A47B931A7C547E5BB9BDEE4C7220C5AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SystemSounds;
+			target = 75B576367883A8C146B5DB07BFC7C826 /* SystemSounds */;
+			targetProxy = DEE05DE7D8017B0882AD64481DB3C4AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		265936B27CD771119A4C7037FB9AF4A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1443610D18316BF5DF0E7DE4D088E318 /* Pods-IM.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-IM/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IM/Pods-IM.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_IM;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5513E2FA39359EA1DA4C32CAD4B9B6E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A2D1B9DC45269B64E337213FFF80F17 /* Pods-IM.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-IM/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IM/Pods-IM.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_IM;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6262B30F4CF61BEF315B2CACE308EE11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD22D1D107A577799CA38143FFC6F0B7 /* SystemSounds.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SystemSounds/SystemSounds-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SystemSounds/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SystemSounds/SystemSounds.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SystemSounds;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A783755FE001DB49A6E5F2F20C226A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD22D1D107A577799CA38143FFC6F0B7 /* SystemSounds.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SystemSounds/SystemSounds-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SystemSounds/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SystemSounds/SystemSounds.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SystemSounds;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1246B0C8B8454C570E6652B110C5EBA9 /* Build configuration list for PBXNativeTarget "SystemSounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6262B30F4CF61BEF315B2CACE308EE11 /* Debug */,
+				A783755FE001DB49A6E5F2F20C226A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C104F7F091290C3D1E248192F07FE689 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DD67CADB7242E5EA5A2132F323DD052 /* Build configuration list for PBXNativeTarget "Pods-IM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5513E2FA39359EA1DA4C32CAD4B9B6E0 /* Debug */,
+				265936B27CD771119A4C7037FB9AF4A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
